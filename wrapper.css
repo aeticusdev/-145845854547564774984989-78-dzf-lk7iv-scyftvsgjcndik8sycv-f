@@ -69,7 +69,8 @@ body {
     --panel-blur: on;
     --blur-amount: 12px;
     --bg-floating: var(--bg-3);
-    --panel-backdrop-filter: none; /* from DiyaCord */
+    --panel-backdrop-filter: blur(var(--blur-amount));
+/* from DiyaCord */
 
     /* chatbar options */
     --flipped-chatbar: on;
