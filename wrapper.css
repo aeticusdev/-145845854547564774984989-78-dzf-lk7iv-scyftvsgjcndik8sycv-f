@@ -96,12 +96,12 @@ body {
     --colors: on;
 
     /* text colors - using DiyaCord's purple theme */
-    --text-0: white;
+    --text-0: hsl(280, 100%, 95%); /* bright violet-white */
     --text-1: var(--text-2);
-    --text-2: hsl(220, 25%, 75%);
-    --text-3: hsl(220, 15%, 65%);
-    --text-4: hsl(268, 15%, 45%);
-    --text-5: hsl(220, 15%, 30%);
+    --text-2: hsl(270, 80%, 80%);  /* soft violet */
+    --text-3: hsl(270, 60%, 65%);  /* muted neon */
+    --text-4: hsl(270, 40%, 50%);
+    --text-5: hsl(270, 30%, 35%);
 
     /* background and dark colors - using DiyaCord's dark theme */
     --bg-1: hsla(0, 0%, 8%, 0.5);      /* 50% opacity */
@@ -112,19 +112,22 @@ body {
     --active: hsla(240, 25%, 50%, 0.25);
     --active-2: hsla(240, 25%, 50%, 0.35);
     --message-hover: hsla(240, 0%, 0%, 0.15);
-
-    /* accent colors - using DiyaCord's purple accents */
-    --accent-1: hsl(270, 80%, 70%);
-    --accent-2: hsl(278, 80%, 60%);
-    --accent-3: hsl(270, 80%, 50%);
-    --accent-4: hsl(270, 80%, 40%);
-    --accent-5: hsl(270, 80%, 30%);
+    /* ACCENTS */
+    --accent-1: hsl(300, 100%, 75%); /* pinkish purple */
+    --accent-2: hsl(285, 100%, 65%); /* vibrant neon purple */
+    --accent-3: hsl(275, 100%, 55%);
+    --accent-4: hsl(265, 100%, 45%);
+    --accent-5: hsl(260, 90%, 35%);
+    
     --accent-new: var(--accent-2);
-    --mention: hsla(270, 90%, 60%, 0.1);
-    --mention-hover: hsla(270, 90%, 60%, 0.05);
-    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent);
-    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent);
-
+    
+    /* MENTION HIGHLIGHT (glow-like) */
+    --mention: hsla(285, 100%, 65%, 0.1);
+    --mention-hover: hsla(285, 100%, 65%, 0.05);
+    
+    /* REPLY BACKGROUND (subtle lighting gradient) */
+    --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 85%) 40%, transparent);
+    --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent);
     /* status indicator colors - from DiyaCord */
     --online: #1fda6d;
     --dnd: hsl(340, 60%, 60%);
