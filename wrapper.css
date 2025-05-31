@@ -60,8 +60,8 @@ body {
     --dms-background-color: linear-gradient(70deg, var(--accent-3), var(--accent-4), var(--accent-5));
 
     /* background image options */
-    --background-image: off;
-    --background-image-url: url('');
+    --background-image: on;
+    --background-image-url: url('https://media.discordapp.net/attachments/1322610466031145035/1378394173581033542/gif.gif?ex=683c711c&is=683b1f9c&hm=894c8814534449914b53ae12bfdf639902d3ef7eaea3327b5808c4e3e914735e&=');
 
     /* transparency/blur options */
     --transparency-tweaks: on;
