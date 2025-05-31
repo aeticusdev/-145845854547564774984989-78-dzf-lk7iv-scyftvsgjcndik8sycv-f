@@ -61,14 +61,14 @@ body {
 
     /* background image options */
     --background-image: on;
-    --background-image-url: url('https://media.discordapp.net/attachments/1322610466031145035/1378394173581033542/gif.gif?ex=683c711c&is=683b1f9c&hm=894c8814534449914b53ae12bfdf639902d3ef7eaea3327b5808c4e3e914735e&=');
+    --background-image-url: url('https://s6.ezgif.com/tmp/ezgif-6e45d8098b897f.gif');
 
     /* transparency/blur options */
     --transparency-tweaks: on;
-    --remove-bg-layer: off;
+    --remove-bg-layer: on;
     --panel-blur: on;
     --blur-amount: 12px;
-    --bg-floating: var(--bg-3);
+    --bg-floating: transparent;
     --panel-backdrop-filter: none; /* from DiyaCord */
 
     /* chatbar options */
