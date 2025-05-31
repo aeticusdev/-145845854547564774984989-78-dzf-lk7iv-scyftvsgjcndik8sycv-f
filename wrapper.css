@@ -97,11 +97,18 @@ body {
 
     /* text colors - using DiyaCord's purple theme */
     --text-0: white;
-    --text-2: hsl(270, 80%, 80%);  /* soft violet */
-    --text-3: hsl(270, 60%, 65%);  /* muted neon */
-    --text-4: hsl(270, 40%, 50%);
-    --text-5: hsl(270, 30%, 35%);
 
+    --text-2: hsl(220, 25%, 75%);
+
+
+    --text-3: hsl(220, 15%, 65%);
+
+
+    --text-4: hsl(268, 15%, 45%);
+
+
+    --text-5: hsl(220, 15%, 30%);
+    
     /* background and dark colors - using DiyaCord's dark theme */
     --bg-1: hsla(0, 0%, 8%, 0.5);      /* 50% opacity */
     --bg-2: hsla(240, 20%, 10%, 0.5);
